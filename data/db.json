@@ -1,0 +1,384 @@
+{
+  "lastId": 52,
+  "kids": [
+    {
+      "id": 1,
+      "name": "Test Child 1",
+      "age": 8,
+      "weeklyAllowancePence": 800,
+      "balancePence": 3000
+    },
+    {
+      "id": 2,
+      "name": "Test Child 2",
+      "age": 11,
+      "weeklyAllowancePence": 1100,
+      "balancePence": 4000
+    },
+    {
+      "id": 3,
+      "name": "Test Child 3",
+      "age": 14,
+      "weeklyAllowancePence": 1400,
+      "balancePence": 5450
+    }
+  ],
+  "chores": [
+    {
+      "id": 4,
+      "kidId": 1,
+      "name": "Tidy bedroom",
+      "valuePence": 100
+    },
+    {
+      "id": 5,
+      "kidId": 1,
+      "name": "Set the table",
+      "valuePence": 50
+    },
+    {
+      "id": 6,
+      "kidId": 1,
+      "name": "Put toys away",
+      "valuePence": 50
+    },
+    {
+      "id": 7,
+      "kidId": 2,
+      "name": "Empty the dishwasher",
+      "valuePence": 100
+    },
+    {
+      "id": 8,
+      "kidId": 2,
+      "name": "Walk the dog",
+      "valuePence": 200
+    },
+    {
+      "id": 9,
+      "kidId": 2,
+      "name": "Take out the bins",
+      "valuePence": 100
+    },
+    {
+      "id": 10,
+      "kidId": 3,
+      "name": "Vacuum the lounge",
+      "valuePence": 200
+    },
+    {
+      "id": 11,
+      "kidId": 3,
+      "name": "Cook dinner",
+      "valuePence": 300
+    },
+    {
+      "id": 12,
+      "kidId": 3,
+      "name": "Mow the lawn",
+      "valuePence": 400
+    }
+  ],
+  "choreLogs": [
+    {
+      "id": 13,
+      "choreId": 4,
+      "date": "2026-10-20"
+    },
+    {
+      "id": 18,
+      "choreId": 5,
+      "date": "2026-11-03"
+    },
+    {
+      "id": 22,
+      "choreId": 4,
+      "date": "2026-11-12"
+    },
+    {
+      "id": 29,
+      "choreId": 8,
+      "date": "2026-10-19"
+    },
+    {
+      "id": 31,
+      "choreId": 8,
+      "date": "2026-10-26"
+    },
+    {
+      "id": 33,
+      "choreId": 8,
+      "date": "2026-11-09"
+    },
+    {
+      "id": 35,
+      "choreId": 7,
+      "date": "2026-10-22"
+    },
+    {
+      "id": 37,
+      "choreId": 7,
+      "date": "2026-11-11"
+    },
+    {
+      "id": 45,
+      "choreId": 11,
+      "date": "2026-10-21"
+    },
+    {
+      "id": 47,
+      "choreId": 11,
+      "date": "2026-11-04"
+    },
+    {
+      "id": 49,
+      "choreId": 12,
+      "date": "2026-11-02"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 15,
+      "kidId": 1,
+      "amountPence": 800,
+      "type": "allowance",
+      "description": "Weekly allowance",
+      "date": "2026-10-18"
+    },
+    {
+      "id": 14,
+      "kidId": 1,
+      "amountPence": 100,
+      "type": "chore",
+      "description": "Tidy bedroom",
+      "date": "2026-10-20",
+      "choreLogId": 13
+    },
+    {
+      "id": 16,
+      "kidId": 1,
+      "amountPence": 800,
+      "type": "allowance",
+      "description": "Weekly allowance",
+      "date": "2026-10-25"
+    },
+    {
+      "id": 17,
+      "kidId": 1,
+      "amountPence": 800,
+      "type": "allowance",
+      "description": "Weekly allowance",
+      "date": "2026-11-01"
+    },
+    {
+      "id": 19,
+      "kidId": 1,
+      "amountPence": 50,
+      "type": "chore",
+      "description": "Set the table",
+      "date": "2026-11-03",
+      "choreLogId": 18
+    },
+    {
+      "id": 20,
+      "kidId": 1,
+      "amountPence": -300,
+      "type": "spend",
+      "description": "Comic book",
+      "date": "2026-11-05"
+    },
+    {
+      "id": 21,
+      "kidId": 1,
+      "amountPence": 800,
+      "type": "allowance",
+      "description": "Weekly allowance",
+      "date": "2026-11-08"
+    },
+    {
+      "id": 23,
+      "kidId": 1,
+      "amountPence": 100,
+      "type": "chore",
+      "description": "Tidy bedroom",
+      "date": "2026-11-12",
+      "choreLogId": 22
+    },
+    {
+      "id": 24,
+      "kidId": 1,
+      "amountPence": -150,
+      "type": "spend",
+      "description": "Ice cream",
+      "date": "2026-11-14"
+    },
+    {
+      "id": 25,
+      "kidId": 2,
+      "amountPence": 1100,
+      "type": "allowance",
+      "description": "Weekly allowance",
+      "date": "2026-10-18"
+    },
+    {
+      "id": 30,
+      "kidId": 2,
+      "amountPence": 200,
+      "type": "chore",
+      "description": "Walk the dog",
+      "date": "2026-10-19",
+      "choreLogId": 29
+    },
+    {
+      "id": 36,
+      "kidId": 2,
+      "amountPence": 100,
+      "type": "chore",
+      "description": "Empty the dishwasher",
+      "date": "2026-10-22",
+      "choreLogId": 35
+    },
+    {
+      "id": 26,
+      "kidId": 2,
+      "amountPence": 1100,
+      "type": "allowance",
+      "description": "Weekly allowance",
+      "date": "2026-10-25"
+    },
+    {
+      "id": 32,
+      "kidId": 2,
+      "amountPence": 200,
+      "type": "chore",
+      "description": "Walk the dog",
+      "date": "2026-10-26",
+      "choreLogId": 31
+    },
+    {
+      "id": 39,
+      "kidId": 2,
+      "amountPence": -500,
+      "type": "spend",
+      "description": "Football stickers",
+      "date": "2026-10-28"
+    },
+    {
+      "id": 27,
+      "kidId": 2,
+      "amountPence": 1100,
+      "type": "allowance",
+      "description": "Weekly allowance",
+      "date": "2026-11-01"
+    },
+    {
+      "id": 40,
+      "kidId": 2,
+      "amountPence": -700,
+      "type": "spend",
+      "description": "Cinema trip",
+      "date": "2026-11-07"
+    },
+    {
+      "id": 28,
+      "kidId": 2,
+      "amountPence": 1100,
+      "type": "allowance",
+      "description": "Weekly allowance",
+      "date": "2026-11-08"
+    },
+    {
+      "id": 34,
+      "kidId": 2,
+      "amountPence": 200,
+      "type": "chore",
+      "description": "Walk the dog",
+      "date": "2026-11-09",
+      "choreLogId": 33
+    },
+    {
+      "id": 38,
+      "kidId": 2,
+      "amountPence": 100,
+      "type": "chore",
+      "description": "Empty the dishwasher",
+      "date": "2026-11-11",
+      "choreLogId": 37
+    },
+    {
+      "id": 41,
+      "kidId": 3,
+      "amountPence": 1400,
+      "type": "allowance",
+      "description": "Weekly allowance",
+      "date": "2026-10-18"
+    },
+    {
+      "id": 46,
+      "kidId": 3,
+      "amountPence": 300,
+      "type": "chore",
+      "description": "Cook dinner",
+      "date": "2026-10-21",
+      "choreLogId": 45
+    },
+    {
+      "id": 42,
+      "kidId": 3,
+      "amountPence": 1400,
+      "type": "allowance",
+      "description": "Weekly allowance",
+      "date": "2026-10-25"
+    },
+    {
+      "id": 51,
+      "kidId": 3,
+      "amountPence": -900,
+      "type": "spend",
+      "description": "Paperback book",
+      "date": "2026-10-30"
+    },
+    {
+      "id": 43,
+      "kidId": 3,
+      "amountPence": 1400,
+      "type": "allowance",
+      "description": "Weekly allowance",
+      "date": "2026-11-01"
+    },
+    {
+      "id": 50,
+      "kidId": 3,
+      "amountPence": 400,
+      "type": "chore",
+      "description": "Mow the lawn",
+      "date": "2026-11-02",
+      "choreLogId": 49
+    },
+    {
+      "id": 48,
+      "kidId": 3,
+      "amountPence": 300,
+      "type": "chore",
+      "description": "Cook dinner",
+      "date": "2026-11-04",
+      "choreLogId": 47
+    },
+    {
+      "id": 44,
+      "kidId": 3,
+      "amountPence": 1400,
+      "type": "allowance",
+      "description": "Weekly allowance",
+      "date": "2026-11-08"
+    },
+    {
+      "id": 52,
+      "kidId": 3,
+      "amountPence": -250,
+      "type": "spend",
+      "description": "Bus fare",
+      "date": "2026-11-13"
+    }
+  ]
+}

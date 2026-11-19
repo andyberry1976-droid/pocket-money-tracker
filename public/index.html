@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pocket Money Tracker</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>Pocket Money Tracker</h1>
+      <p class="tagline">Keep track of allowances, chores, and spending for the whole family.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="summary-bar" id="summary-bar">
+      <div>
+        <span class="label">Children</span>
+        <strong id="child-count">–</strong>
+      </div>
+      <div>
+        <span class="label">Family total</span>
+        <strong id="family-total">–</strong>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Add a child</h2>
+      <form id="add-child-form" class="form-row">
+        <label>Name
+          <input name="name" maxlength="40" required placeholder="First name">
+        </label>
+        <label>Age
+          <input name="age" type="number" min="1" max="18" value="8" required>
+        </label>
+        <label>Weekly allowance (£)
+          <input name="allowance" type="number" min="0" step="0.01" placeholder="Optional">
+        </label>
+        <button type="submit">Add child</button>
+      </form>
+      <p class="hint">If you leave the allowance blank, it defaults to £1 per year of age.</p>
+    </section>
+
+    <section>
+      <h2>Children</h2>
+      <div id="kid-list" class="kid-grid"></div>
+    </section>
+
+    <section id="detail" class="panel hidden"></section>
+    <p id="flash" class="flash hidden" role="status"></p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>A simple pocket money tracker. Amounts are stored in pence and shown in pounds.</p>
+    </div>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
